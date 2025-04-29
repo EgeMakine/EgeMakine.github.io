@@ -16,8 +16,8 @@ header {
 }
 
 header .logo img {
-    width: 200px; /* Logoyu büyütüyoruz */
-    margin-bottom: 15px;
+    width: 1151px; /* Logoyu büyütüyoruz */
+    margin-bottom: 270px;
 }
 
 header h1 {
@@ -67,6 +67,7 @@ header h1 {
 .part-list {
     padding: 20px;
     background-color: #fff;
+    overflow-y: auto;
     margin: 20px auto;
     width: 80%;
     border-radius: 8px;
