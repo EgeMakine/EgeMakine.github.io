@@ -1,44 +1,77 @@
 <!DOCTYPE html>
 <html lang="tr">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ege Makine</title>
-  <!-- .css file -->
-</head>
-<body>
-  <div>
-    <h1>Ege Makine</h1>
-    <p>Makine Parçaları ve Hizmetlerimiz</p>
 
-    <h2>Parça Listesi</h2>
-    <table>
-      <thead>
-        <tr>
-          <th>Parça Adı</th>
-          <th>Parça Numarası</th>
-          <th>Stok Durumu</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Rulman</td>
-          <td>RM-204</td>
-          <td>Stokta</td>
-        </tr>
-        <tr>
-          <td>Şaft</td>
-          <td>SF-101</td>
-          <td>Stokta Yok</td>
-        </tr>
-        <tr>
-          <td>Vidalı Mil</td>
-          <td>VM-302</td>
-          <td>Stokta</td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ege Makine</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Header: Şirket Amblemi ve Başlık -->
+    <header>
+        <div class="logo">
+            <img src="EgeMakine.png" alt="Ege Makine Amblemi" width="150"> <!-- Logo Burada -->
+        </div>
+        <h1>Ege Makine</h1>
+    </header>
+
+    <!-- Tanıtım Yazısı -->
+    <section class="intro">
+        <p>
+            Ege Makine, yüksek kaliteli makina parçaları üretimi ve satışı konusunda lider bir şirkettir. Yılların
+            verdiği tecrübe ile sektördeki ihtiyaçlara yönelik yenilikçi çözümler sunmaktayız.
+        </p>
+    </section>
+
+    <!-- İletişim Bilgileri -->
+    <section class="contact-info">
+        <h2>İletişim Bilgileri</h2>
+        <p><strong>Adres:</strong> İzmir </p>
+        <p><strong>Telefon:</strong> +90 123 456 7890</p>
+        <p><strong>Email:</strong> info@egemakine.com</p>
+    </section>
+
+    <!-- Makine Parçaları Listesi -->
+    <section class="part-list">
+        <h2>Makine Parçaları</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Parça Adı</th>
+                    <th>Parça Numarası</th>
+                    <th>Stok Durumu</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Parça 1</td>
+                    <td>ABC123</td>
+                    <td>Stokta Var</td>
+                </tr>
+                <tr>
+                    <td>Parça 2</td>
+                    <td>XYZ456</td>
+                    <td>Stokta Yok</td>
+                </tr>
+                <tr>
+                    <td>Parça 3</td>
+                    <td>PQR789</td>
+                    <td>Stokta Var</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Ege Makine. Tüm hakları saklıdır.</p>
+    </footer>
+
 </body>
+
 </html>
 
