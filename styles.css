@@ -27,7 +27,7 @@ header .logo img {
         width: 100%; /* Logo genişliği ekranın %90'ı olacak */
         max-width: 1151px; /* Logo, orijinal genişliğini aşmasın */
         height: auto; /* Yükseklik, genişlikle orantılı kalacak */
-        margin-bottom: 50px;
+        margin-bottom: 20px;
 
     }
 
