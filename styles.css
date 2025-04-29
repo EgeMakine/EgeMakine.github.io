@@ -24,8 +24,17 @@ header .logo img {
 
 @media only screen and (max-width: 768px) {
     .logo {
-        width: 80%; /* Logo boyutunu mobilde %80 yap */
-        max-width: 150px; /* Maksimum boyutu mobilde de sınırla */
+        width: 90%; /* Logo genişliği ekranın %90'ı olacak */
+        max-width: 1151px; /* Logo, orijinal genişliğini aşmasın */
+        height: auto; /* Yükseklik, genişlikle orantılı kalacak */
+        display: block;
+        margin: 0 auto; /* Merkezleme için */
+    }
+
+    .logo-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
 
