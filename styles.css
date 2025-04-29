@@ -24,11 +24,11 @@ header .logo img {
 
 @media only screen and (max-width: 768px) {
     .logo {
-        width: 90%; /* Logo genişliği ekranın %90'ı olacak */
+        width: 100%; /* Logo genişliği ekranın %90'ı olacak */
         max-width: 1151px; /* Logo, orijinal genişliğini aşmasın */
         height: auto; /* Yükseklik, genişlikle orantılı kalacak */
-        display: block;
-        margin: 0 auto; /* Merkezleme için */
+        margin-bottom: 100px;
+
     }
 
     .logo-container {
