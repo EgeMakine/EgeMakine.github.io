@@ -17,7 +17,7 @@ header {
 
 header .logo img {
     width: 1151px; /* Logoyu büyütüyoruz */
-    margin-bottom: 270px;
+    margin-bottom: 100px;
 }
 
 header h1 {
@@ -103,7 +103,7 @@ header h1 {
 }
 
 
-.copyright {
+.copyright p {
     text-align: center;
     padding: 15px;
     background-color: #2c3e50;
