@@ -68,6 +68,7 @@ header h1 {
     padding: 20px;
     background-color: #fff;
     overflow-y: auto;
+    max-height: 400px;
     margin: 20px auto;
     width: 80%;
     border-radius: 8px;
