@@ -16,7 +16,9 @@ header {
 }
 
 header .logo img {
-    width: 1151px; /* Logoyu büyütüyoruz */
+    width: 100%;
+    max-width: 1151px; /* masaüstü için sınır */
+    height: auto;
     margin-bottom: 100px;
 }
 
