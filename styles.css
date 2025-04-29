@@ -35,6 +35,13 @@ header .logo img {
         display: flex;
         justify-content: center;
         align-items: center;
+        margin-bottom: 0;
+        padding-bottom: 0;
+
+    }
+    .logo-container img {
+        display: block;
+        line-height: 0;
     }
 }
 
