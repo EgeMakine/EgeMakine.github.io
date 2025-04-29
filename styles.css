@@ -17,7 +17,7 @@ header {
 
 header .logo img {
     width: 100%;
-    max-width: 1151px; /* masaüstü için sınır */
+    max-width: 298px; /* masaüstü için sınır */
     height: auto;
     margin-bottom: 100px;
 }
@@ -25,7 +25,7 @@ header .logo img {
 @media only screen and (max-width: 768px) {
     .logo {
         width: 100%; /* Logo genişliği ekranın %90'ı olacak */
-        max-width: 1151px; /* Logo, orijinal genişliğini aşmasın */
+        max-width: 298px; /* Logo, orijinal genişliğini aşmasın */
         height: auto; /* Yükseklik, genişlikle orantılı kalacak */
         margin-bottom: 20px;
 
